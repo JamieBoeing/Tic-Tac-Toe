@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: bold;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+}
+
+td[data-value="X"] {
+color: #C0EAE8;
+}
+
+td[data-value="O"] {
+    color: #EFC9C4;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #BAA7A7;
+}
